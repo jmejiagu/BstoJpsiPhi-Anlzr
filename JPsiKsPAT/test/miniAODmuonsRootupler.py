@@ -27,8 +27,9 @@ process.source = cms.Source("PoolSource",
 
  )
 )
-#Prueba de fuego.
 #process.load("myAnalyzers.JPsiKsPAT.miniAODmuonsRootupler_cfi")
+#Prueba de fuegO.
+#Prueba de fuegO.
 #process.rootuple.dimuons = cms.InputTag('miniaodPATMuonsWithTrigger') 
 
 process.rootuple = cms.EDAnalyzer('miniAODmuons',
